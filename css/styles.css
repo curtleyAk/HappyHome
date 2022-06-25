@@ -152,7 +152,8 @@ body {
     object-fit: contain;
     position: relative;
     width: 80%;
-    padding-top: 20px;
+    margin-top: 100px;
+    margin-bottom: 100px;
     margin-left: auto;
     margin-right: auto;
     filter: opacity(100%);
@@ -161,6 +162,11 @@ body {
 /* Index Mobile heading seciton */
   .title-head {
     padding-top: 20px;
+    margin-bottom: 100px;
+  }
+
+  .tag-line{
+    margin-bottom: 100px;
   }
 
   /* Manage Place mobile section */
