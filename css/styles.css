@@ -174,10 +174,30 @@ body {
     height: 700px;
   }
 
+ .manageImg{
+    display: block;
+    text-align: center;
+    object-fit: contain;
+    position: relative;
+    width: 80%;
+    margin-top: 100px;
+    margin-bottom: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    filter: opacity(100%);
+  }
+
+  .manageMessage{
+    text-align: center;
+    padding-bottom: 50px;
+  }
+
+
   .pdfViewer{
     display: block;
     margin: auto;
     padding-top: 20px;
+    padding-bottom: 50px;
     width: 80%;
     height: 480px;
   }
