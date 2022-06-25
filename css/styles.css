@@ -1,0 +1,195 @@
+body {
+  font-family: Lexend Mega;
+}
+
+/* Navigational Bar */
+
+#title{
+
+}
+.logo {
+  width: 120px;
+  height: 120px;
+}
+
+.book-now {
+  color: #B49D6F;
+  margin-right: 20px;
+}
+
+.book-now:hover {
+  color: #B49D6F;
+}
+
+/* Middle Section Index page*/
+#middle {
+  padding-bottom: 100px;
+}
+
+.title-image {
+  position: absolute;
+  z-index: -1;
+  height: 400px;
+  width: 100%;
+  filter: opacity(50%);
+}
+
+.title-head {
+  font-family: Dancing Script;
+  font-weight: 800;
+  font-size: 5rem;
+  text-align: center;
+  color: #423423;
+  padding-top: 80px;
+}
+
+.tag-line {
+  font-family: Lexend Mega;
+  text-align: center;
+}
+
+/* Middle Section Manage Place section */
+#docManage {
+  height: 500px;
+}
+
+.manageImg {
+  position: absolute;
+  width: 100%;
+  height: 500px;
+  z-index: -1;
+  filter: opacity(20%);
+}
+
+.manageCont {
+  padding: 20px 15px 0px;
+}
+
+.manageMessage {
+  color: #353036;
+}
+
+.introLink {
+  color: #1A4D2E;
+}
+
+.agreeLink {
+  color: #1A4D2E;
+}
+
+.dropdown-item.active{
+  background-color: #B49D6F;
+}
+
+.dropdown-menu{
+  --bs-dropdown-link-active-bg: #B49D6F;
+}
+
+/* Carousel Hotel & Aparthotel section */
+  #middleHotel{
+    background-color: #353036;
+  }
+  .hotelCarousel{
+    margin: auto;
+    width: 50%;
+  }
+  .hotelTitle{
+    padding: 40px 20px;
+    background-color: #FFFF;
+
+  }
+  .hotelHeading{
+    text-align: center;
+    font-family: Spectral SC;
+    font-size: 3rem;
+  }
+  .cityClubMainImg{
+    filter: grayscale();
+  }
+
+/* Review section  */
+#reviews{
+  text-align: center;
+  padding: 50px;
+}
+.feature-heading{
+  padding-top: 20px;
+}
+
+
+/* footer section */
+#footer {
+  font-weight: 200;
+  text-align: center;
+  color: #B49D6F;
+  background-color: #353036;
+}
+
+.addy {
+  text-align: right;
+}
+
+.contact-us {
+  padding: 30px 10px 5px;
+}
+
+.cont-dets {
+  text-align: left;
+}
+
+.social-icons {
+  color: #B49D6F;
+}
+.pdfViewer{
+  width: 100%;
+  height: 500px;
+}
+/* Mobile Reactive Section */
+@media (max-width: 1028px) {
+  .title-image {
+    display: block;
+    text-align: center;
+    object-fit: contain;
+    position: relative;
+    width: 80%;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    filter: opacity(100%);
+  }
+
+/* Index Mobile heading seciton */
+  .title-head {
+    padding-top: 20px;
+  }
+
+  /* Manage Place mobile section */
+  #docManage {
+    height: 700px;
+  }
+
+  .pdfViewer{
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+    width: 80%;
+    height: 480px;
+  }
+
+  /* Carousel Hotel & Aparthotel Mobile section */
+  .hotelCarousel{
+    margin: auto;
+    width: 100%;
+  }
+
+/* Index Mobile Footer section */
+  .cont-dets {
+    padding-bottom: 10px;
+    text-align: center;
+  }
+
+  .addy {
+    padding-top: 20px;
+    text-align: center;
+  }
+}
