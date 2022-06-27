@@ -123,6 +123,7 @@ body {
   text-align: center;
   color: #B49D6F;
   background-color: #353036;
+  margin-top: auto;
 }
 
 .addy {
@@ -144,6 +145,8 @@ body {
   width: 100%;
   height: 500px;
 }
+
+
 /* Mobile Reactive Section */
 @media (max-width: 1028px) {
   .title-image {
@@ -174,7 +177,7 @@ body {
     height: 700px;
   }
 
- .manageImg{
+  .manageImg{
     display: block;
     text-align: center;
     object-fit: contain;
@@ -187,7 +190,7 @@ body {
     filter: opacity(100%);
   }
 
-  .manageMessage{
+   .manageMessage{
     text-align: center;
     padding-bottom: 50px;
   }
@@ -218,8 +221,8 @@ body {
     padding-top: 20px;
     text-align: center;
   }
-  
+
   #footer{
-    margin-top: auto;
+  margin-top: auto;
   }
 }
